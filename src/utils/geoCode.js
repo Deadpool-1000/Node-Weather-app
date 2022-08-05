@@ -8,7 +8,6 @@ const geoCode = (address, callback) => {
         } else if(body.results.length===0) {
             callback('No Sucg place found,Sorry😥', undefined);
         } else {    
-            console.log(body.results);
             const latitude = body.results[0].geometry.lat ;
             const longitude = body.results[0].geometry.lng;
             const location = body.results[0].formatted;

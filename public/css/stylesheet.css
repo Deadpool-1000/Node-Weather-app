@@ -1,6 +1,7 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     margin: 0 50px 0 100px;
+    padding:10px;
 }
 
 /* top rig bot le */
@@ -26,13 +27,7 @@ h1 {
     color: red;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+
 .content {
     padding:24px 0 0 0;
 }
@@ -72,6 +67,21 @@ h1 {
   @media (min-width: 768px) {
     .content button{
       width:auto;
+      margin-bottom:20px;
+    }
+    
+  }
+  @media (max-width: 800px) {
+    .content button{
+      width:80%;
+      margin:auto;
+      margin-bottom:20px;
+    }
+    .content input {
+      width:72%;
+    }
+    body {
+      text-align:center;
     }
   }
 
