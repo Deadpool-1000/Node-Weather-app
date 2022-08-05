@@ -84,6 +84,21 @@ h1 {
       text-align:center;
     }
   }
+  @media (max-width: 450px) {
+    .navbar {
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    .navbar li {
+      display:block;
+      margin:20px;
+    }
+    body {
+      margin:0;
+      padding: 0;
+    }
+  }
 
   .results{
     width:80%;
