@@ -1,0 +1,87 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 50px 0 100px;
+}
+
+/* top rig bot le */
+.nav-item {
+    display: inline;
+    margin-right: 50px;
+}
+
+.navbar {
+    padding: 0px;
+    font-size:22px;
+}
+
+ul {
+    padding: 0px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+h1 {
+    color: red;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.content {
+    padding:24px 0 0 0;
+}
+
+.content input {
+    width:40%;
+    height:30px;
+    margin-bottom:30px;
+    border-radius: 8px;
+    padding:10px;
+    font-size: 20px;
+}
+
+.content button {
+    width:100%;
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    border: 1px solid red;
+    color: white;
+    background: red;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.26);
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .content button:focus {
+    outline: none;
+  }
+  
+  .content button:hover,
+  .content button:active {
+    background: #a90425;
+    border-color: #a90425;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.26);
+  }
+  
+  @media (min-width: 768px) {
+    .content button{
+      width:auto;
+    }
+  }
+
+  .results{
+    width:80%;
+    font-size:20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    display:none;
+    margin:auto;
+    margin-top:80px;
+    padding: 28px;
+  }
