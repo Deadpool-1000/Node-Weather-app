@@ -14,7 +14,7 @@ btn_search.addEventListener('click', (e) => {
     weather_img.alt='';
     e.preventDefault();
     userQuery = document.getElementById('query').value;
-    const url = `/weather?address=${userQuery}`;
+    const url = `https://nodejs-weather-app-idxz.onrender.com/weather?address=${userQuery}`;
     fetch(url).then((response) => {
         response.json().then((data) => {
             if (data.error) {
